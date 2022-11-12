@@ -14,7 +14,11 @@ function App() {
     <div className="App">
       <Header />
       <Corpo />
-      <Dados nome='Judson Paiva' idade='19' sexo='M'/>
+      <Dados 
+        nome = {nome} 
+        idade = {idade}
+        sexo = {sexo}
+      />
     </div>
   );
 }
