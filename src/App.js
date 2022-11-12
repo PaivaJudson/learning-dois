@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Corpo from './componentes/Corpo';
+import Header from './componentes/Header';
+import Dados from './componentes/Dados';
+
 
 function App() {
+
+  const nome = "Quissanga Coge";
+  const idade = 18;
+  const sexo = 'M';
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Corpo />
+      <Dados nome='Judson Paiva' idade='19' sexo='M'/>
     </div>
   );
 }
