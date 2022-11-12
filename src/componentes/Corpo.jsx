@@ -9,6 +9,10 @@ function Corpo(){
         return "Judson Quissanga";
     }
 
+    function somar(x, y){
+        return x + y;
+    }
+
     return(
         <>
             <h2>Corpo</h2>
@@ -16,6 +20,7 @@ function Corpo(){
                     nome = {enviarNome}
                     idade = "20" 
                     sexo = "M" 
+                    soma = {somar}
                 />
         </>
     );
