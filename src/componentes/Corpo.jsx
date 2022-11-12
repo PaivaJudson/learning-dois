@@ -3,12 +3,17 @@ import Dados from './Dados';
 
 
 function Corpo(){
-    // podemos usar constantes por cá...
+    // podemos usar constantes por cá ou até funções...
+
+    function enviarNome(){
+        return "Judson Quissanga";
+    }
+
     return(
         <>
             <h2>Corpo</h2>
                 <Dados 
-                    nome = "Judson Paiva" 
+                    nome = {enviarNome}
                     idade = "20" 
                     sexo = "M" 
                 />
