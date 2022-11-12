@@ -1,5 +1,31 @@
+a{
+    font-size: 1.5em;
+}
+
+
+.texto{
+  color: #0f0;
+  font-size: 1.5em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa {
+  display:flex;
+}
+
 .App {
   text-align: center;
+}
+
+.App a {
+  text-decoration: none;  
+}
+
+.App a:hover {
+  background-color: #f00;
+  color: #fff;
 }
 
 .App-logo {
@@ -28,11 +54,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
